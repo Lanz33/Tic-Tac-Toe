@@ -24,18 +24,14 @@ table {
     width: 300px;
     height: 300px;
     border-collapse: collapse;
+   
 }
 
-th,
-td {
+th,td {
     width: 100px;
     height: 100px;
-    text-align: center;
-    font-size: 24px;
-}
-
-td {
     border-right: 5px solid white;
+    text-align: center;
 }
 
 td:nth-child(3) {
@@ -52,4 +48,9 @@ tr:nth-child(2) {
 
 tr:last-child td {
     border-bottom: none;
+}
+
+td:hover{
+    background-color: #595959;
+    cursor: pointer;
 }
